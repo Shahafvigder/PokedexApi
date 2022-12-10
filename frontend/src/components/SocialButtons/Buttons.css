@@ -1,0 +1,39 @@
+.mainButtonsDiv{
+    display: flex;
+    
+}
+
+
+.instaButton{
+    background: linear-gradient(to right, #ff3019 0%,#c90477 100%);
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}
+.facbookButton{
+    background-color: #3B5899;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}
+.LinkdinButton{
+    background-color: #0E65C2;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.10);
+    color: white;
+    font-size: 19px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    height: 40px;
+    width: 100px;
+}

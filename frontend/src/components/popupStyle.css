@@ -1,0 +1,61 @@
+.popup {
+    position: fixed;
+    top: 50px;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsla(0, 0%, 100%, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#popup-inner {
+    position: relative;
+    padding: 20px;
+    width: 100%;
+    max-width: 640px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.close {
+
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.close:hover {
+    background-color: rgb(173, 173, 173);
+
+}
+
+.Pokeimage {
+    margin-right: 15px;
+    height: 200px;
+    width: 200px;
+    border: 1px solid rgb(116, 115, 115);
+    border-radius: 10px;
+}
+
+.PokeName {
+    text-align: center;
+}
+
+.BodyDiv {
+    width: 100%;
+    display: flex;
+
+}
+
+.info {
+    margin: 10px;
+}
